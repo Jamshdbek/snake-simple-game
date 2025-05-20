@@ -85,14 +85,14 @@ export default function SnakeEditor() {
             <h1 className="text-2xl font-bold">Snake Scratch o'yin</h1>
             <div className="flex gap-2 items-center">
               <div className="text-sm mr-4 bg-green-800 p-1 px-2 rounded">
-                <span className="font-bold">Tip:</span>Ilonni boshqarish uchun "Handle key press" tugmachasini qo'shing!
+                <span className="font-bold">Eslatma:</span>Ilonni boshqarish uchun "Handle key press" tugmachasini qo'shing!
               </div>
               <button
                 onClick={handlePlay}
                 disabled={isPlaying && !gameState.gameOver}
                 className="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md disabled:opacity-50"
               >
-                {gameState.gameOver ? "Restart" : "Play"}
+                {gameState.gameOver ? "Tozalash" : "Play"}
               </button>
               <button
                 onClick={handleStop}
