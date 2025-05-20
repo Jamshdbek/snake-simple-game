@@ -133,7 +133,7 @@ export default function BlockPalette({ onAddBlock }: BlockPaletteProps) {
   return (
     <div className="w-64 bg-gray-800 text-white overflow-y-auto flex-shrink-0">
       <div className="p-4">
-        <h2 className="text-xl font-bold mb-4">Blocks</h2>
+        <h2 className="text-xl font-bold mb-4">Funksiya bloklar</h2>
 
         {categories.map((category) => (
           <div key={category.name} className="mb-6">

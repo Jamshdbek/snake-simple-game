@@ -82,7 +82,7 @@ export default function SnakeEditor() {
       <div className="flex flex-col h-screen bg-gray-100">
         <header className="bg-green-600 text-white p-4 shadow-md">
           <div className="container mx-auto flex justify-between items-center">
-            <h1 className="text-2xl font-bold">Snake Scratch Editor</h1>
+            <h1 className="text-2xl font-bold">Snake Scratch o'yin</h1>
             <div className="flex gap-2 items-center">
               <div className="text-sm mr-4 bg-green-800 p-1 px-2 rounded">
                 <span className="font-bold">Tip:</span>Ilonni boshqarish uchun "Handle key press" tugmachasini qo'shing!
@@ -99,7 +99,7 @@ export default function SnakeEditor() {
                 disabled={!isPlaying}
                 className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md disabled:opacity-50"
               >
-                Stop
+                To'xtatish
               </button>
             </div>
           </div>

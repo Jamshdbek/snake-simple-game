@@ -22,11 +22,11 @@ export default function WorkspaceArea({ blocks, onRemoveBlock, onMoveBlock }: Wo
   return (
     <div ref={drop} className="flex-1 bg-gray-200 p-4 overflow-y-auto">
       <div className="bg-white rounded-lg shadow-md p-4 min-h-full">
-        <h2 className="text-xl font-bold mb-4 text-gray-800">Workspace</h2>
+        <h2 className="text-xl font-bold mb-4 text-gray-800">Ish maydoni</h2>
 
         {blocks.length === 0 ? (
           <div className="flex items-center justify-center h-40 border-2 border-dashed border-gray-300 rounded-lg">
-            <p className="text-gray-500">Drag blocks here to build your game</p>
+            <p className="text-gray-500">Oʻyiningizni yaratish uchun bloklarni bu yerga torting</p>
           </div>
         ) : (
           <div className="space-y-1">

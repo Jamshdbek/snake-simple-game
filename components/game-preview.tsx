@@ -306,13 +306,13 @@ export default function GamePreview({ isPlaying, blocks, gameState, setGameState
 
   return (
     <div className="w-full md:w-1/2 bg-gray-700 p-4 flex flex-col">
-      <h2 className="text-xl font-bold mb-4 text-white">Game Preview</h2>
+      <h2 className="text-xl font-bold mb-4 text-white">Natijan ko'rish</h2>
 
       <div className="relative flex-1 bg-white rounded-lg overflow-hidden flex flex-col items-center justify-center p-4">
         {!isPlaying ? (
           <div className="text-gray-800 text-center">
             <p className="text-xl mb-2">Snake Game</p>
-            <p>Click "Play" to start the game</p>
+            <p>O'yinni boshlash uchun tepadagi "Play" tugmasini bosing</p>
           </div>
         ) : (
           <>
